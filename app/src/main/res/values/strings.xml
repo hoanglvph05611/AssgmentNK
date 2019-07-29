@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Assgment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="about">Wallpaper is like a shot of Botox for a tired-looking room. Sure, paint will perk it up, but paper adds more than just color; it gives walls character, dimension, and pattern.
+
+Wallpaper has adorned American homes since colonial times, but after its heyday in the early 1900s, it had a hard time overcoming its connotation as something only for chintz-loving grandmas or high-end designers. These days, thanks in part to buying opportunities on the Internet, homeowners are discovering an exciting world of sophisticated patterns, improved materials, and easy installation methods. You can choose from beautiful papers made in the 18th-century manner, as well as 21st-century nonwovens, which are sheets of fused fibers that are a breeze to hang—and remove.</string>
+</resources>

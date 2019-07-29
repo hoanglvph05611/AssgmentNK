@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="700dp"
+        android:src="@drawable/nt10" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="29dp"
+        app:fab_addButtonColorNormal="#2b98a2"
+        app:fab_addButtonColorPressed="#5C5151"
+        app:fab_addButtonPlusIconColor="#ffffff"
+        app:fab_labelStyle="@style/custom_fab">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#C8000000"
+            app:fab_icon="@drawable/white_heart"
+            app:fab_size="mini" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#C8000000"
+            app:fab_icon="@drawable/ic_share"
+            app:fab_size="mini"
+            app:fab_title="Share" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#C8000000"
+            app:fab_icon="@drawable/ic_save"
+            app:fab_size="mini"
+            app:fab_title="Save Image" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="#C8000000"
+            app:fab_icon="@drawable/ic_setas"
+            app:fab_size="mini"
+            app:fab_title="Set As Wallpaper" />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
